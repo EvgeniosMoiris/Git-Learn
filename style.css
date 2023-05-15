@@ -1,0 +1,32 @@
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .theme-container {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .theme-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  .light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  .dark {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+  
